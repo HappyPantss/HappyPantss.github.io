@@ -8,31 +8,21 @@
 </head>
 <body>
 
-    <!-- <form action="/" method="post">
-        <label for="username">Username: </label>
-        <input type="text" name="username" id="username" disabled>
-        <label for="password">Password: </label>
-        <input type="text" name="password" id="password" disabled>
-        <button type="submit" disabled>LOGIN</button>
-    </form>
-    <br>
-    <a href="register">REGISTER HERE</a><br>
-    <a href="allUsers">ALL USERS</a> -->
-
     <div class="container">
         <a href="index.html"><img src="img/logo.png" alt=""></a>
         <div class="welcome">
           <h1>Welcome!</h1>
           <h2>Log in to use the Amore App.</h2>
+          <p id="dateMessage">Todays date is: </p>
+          <p id="todaysDate"></p>
+
         </div>
         <form action="views/profile.html" method="get">
           <fieldset>
             <div class="formpjes">
-            <!-- <label for="email">Email:</label> -->
               <input type="text" name="username" placeholder="Username" id="username">
             </div>
             <div class="formpjes">
-              <!-- <label for="password">Password:</label> -->
               <input type="password" name="password" placeholder="Password" id="password">
             </div>
             
