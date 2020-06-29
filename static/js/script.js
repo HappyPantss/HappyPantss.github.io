@@ -1,3 +1,9 @@
+var today = "29-6-2020";
+
+var motd = "Welcome! Today it is: ";
+
+console.log(this.motd + today);
+
 const password = document.querySelector("#password");
 const cPassword = document.querySelector("#confirmPassword");
 const cPasswordLabel = document.querySelector("#cPasswordLabel");
